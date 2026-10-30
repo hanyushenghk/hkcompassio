@@ -1,6 +1,6 @@
 # HK Compassio Technology
 
-Official company website for **hkcompassio.org**.
+Official company website for **hkcompass.org**.
 
 ## Website
 
@@ -19,3 +19,7 @@ Edit `source/index.zh-CN.html`, `source/app.zh-CN.js` and `source/english.tsv`; 
 The original company logo is in `dist/assets/hk-compassio-logo.png`.
 
 The project brief form creates a local text download. It does not send enquiries or upload visitor information.
+
+## Deployment
+
+Vercel project: `hkcompassio`. Pushes to `main` trigger production deployments. `vercel.json` selects the `dist` directory. Production domain: https://hkcompass.org/.

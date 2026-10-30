@@ -26,7 +26,7 @@ for i,name in enumerate(services):
     base=base.replace(f'data-service="{name}"',f'data-service="service-{i}"')
 app=app.replace('form.elements.service.value}', 'form.elements.service.selectedOptions[0].textContent}')
 langs=[('zh-Hant','index.html','繁體',traditional),('en','en.html','EN',english),('zh-Hans','zh-cn.html','简体',lambda s:s)]
-origin='https://hkcompassio.org/'
+origin='https://hkcompass.org/'
 for lang,file,label,translate in langs:
     html=translate(base).replace('lang="zh-CN"',f'lang="{lang}"')
     script=f'app.{lang}.js'
