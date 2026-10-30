@@ -18,7 +18,7 @@ Edit `source/index.zh-CN.html`, `source/app.zh-CN.js` and `source/english.tsv`; 
 
 The original company logo is in `dist/assets/hk-compassio-logo.png`.
 
-The project brief form creates a local text download. It does not send enquiries or upload visitor information.
+The project brief form sends enquiries through Web3Forms using the public form identifier in `dist/contact-config.js`. The configured recipient is hanyushenghk@gmail.com. The visitor email is used as Reply-To. Submission success is shown only after the service accepts the request; failures preserve the entered details. A separate button downloads a local text copy without sending email. The form includes a honeypot, duplicate-submission protection and a privacy notice. Never put mailbox passwords or private API secrets in the client configuration.
 
 ## Deployment
 

@@ -16,6 +16,7 @@ pattern=re.compile('|'.join(re.escape(k) for k in sorted(pairs,key=len,reverse=T
 def english(s): return pattern.sub(lambda m:pairs[m.group()],s)
 def traditional(s):
     out=subprocess.run([str(converter)],input=s,text=True,capture_output=True,check=True).stdout
+    for old,new in {'咨詢':'諮詢','重復':'重複','校准':'校準','啓':'啟','場景里':'場景中'}.items(): out=out.replace(old,new)
     return out
 base=(root/'source/index.zh-CN.html').read_text()
 app=(root/'source/app.zh-CN.js').read_text()
