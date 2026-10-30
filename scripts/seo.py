@@ -29,11 +29,11 @@ def enrich(html, lang, filename, metadata):
     org_id = ORIGIN + '#organization'
     graph = [
         {'@type': 'Organization', '@id': org_id, 'name': data['name'],
-         'alternateName': ['HK Compassio Technology Limited', '香港指南針科技有限公司', '香港指南针科技有限公司'],
+         'alternateName': ['香港指南针', '香港指南針', 'HK Compassio Technology Limited', '香港指南針科技有限公司', '香港指南针科技有限公司'],
          'url': ORIGIN, 'logo': {'@type': 'ImageObject', 'url': image, 'width': 1254, 'height': 1254},
          'email': 'hanyushenghk@gmail.com', 'description': description},
         {'@type': 'WebSite', '@id': ORIGIN + '#website', 'url': ORIGIN,
-         'name': 'HK Compassio Technology', 'publisher': {'@id': org_id},
+         'name': 'HK Compassio Technology', 'alternateName': ['香港指南针', '香港指南針'], 'publisher': {'@id': org_id},
          'inLanguage': list(metadata)},
         {'@type': 'WebPage', '@id': url + '#webpage', 'url': url, 'name': title,
          'description': description, 'inLanguage': lang, 'isPartOf': {'@id': ORIGIN + '#website'},

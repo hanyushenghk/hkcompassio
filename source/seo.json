@@ -2,22 +2,37 @@
   "zh-Hant": {
     "name": "香港指南針科技有限公司",
     "locale": "zh_HK",
-    "title": "香港網站開發、小程序、AI 與 SaaS｜指南針科技",
-    "description": "香港指南針科技有限公司提供企業網站、微信小程序、AI 工具及 SaaS 產品開發服務。從需求梳理、介面設計到程式開發與上線，協助企業將業務想法轉化為數字產品。告訴我們你的項目需求，討論適合的開發方案。",
-    "services": ["網站開發", "小程序開發", "AI 工具開發", "SaaS 產品開發"]
+    "title": "香港指南針｜香港網站開發、小程序、AI 與 SaaS",
+    "description": "香港指南針（香港指南針科技有限公司）提供企業網站、微信小程序、AI 工具及 SaaS 產品開發服務。從需求梳理、介面設計到程式開發與上線，協助企業將業務想法轉化為數字產品。告訴我們你的項目需求，討論適合的開發方案。",
+    "services": [
+      "網站開發",
+      "小程序開發",
+      "AI 工具開發",
+      "SaaS 產品開發"
+    ]
   },
   "en": {
     "name": "HK Compassio Technology Limited",
     "locale": "en_HK",
     "title": "Hong Kong Web Development, AI & SaaS | HK Compassio",
     "description": "Hong Kong web development, WeChat mini programs, AI tools and SaaS by HK Compassio. From design to launch, turn your business idea into a product. Get in touch.",
-    "services": ["Web development", "Mini programs", "AI tools", "SaaS products"]
+    "services": [
+      "Web development",
+      "Mini programs",
+      "AI tools",
+      "SaaS products"
+    ]
   },
   "zh-Hans": {
     "name": "香港指南针科技有限公司",
     "locale": "zh_CN",
-    "title": "香港网站开发、小程序、AI 与 SaaS｜指南针科技",
-    "description": "香港指南针科技有限公司提供企业网站、微信小程序、AI 工具及 SaaS 产品开发服务。从需求梳理、界面设计到程序开发与上线，协助企业将业务想法转化为数字产品。告诉我们你的项目需求，讨论适合的开发方案。",
-    "services": ["网站开发", "小程序开发", "AI 工具开发", "SaaS 产品开发"]
+    "title": "香港指南针｜香港网站开发、小程序、AI 与 SaaS",
+    "description": "香港指南针（香港指南针科技有限公司）提供企业网站、微信小程序、AI 工具及 SaaS 产品开发服务。从需求梳理、界面设计到程序开发与上线，协助企业将业务想法转化为数字产品。告诉我们你的项目需求，讨论适合的开发方案。",
+    "services": [
+      "网站开发",
+      "小程序开发",
+      "AI 工具开发",
+      "SaaS 产品开发"
+    ]
   }
 }
