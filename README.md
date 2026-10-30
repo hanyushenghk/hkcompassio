@@ -23,3 +23,9 @@ The project brief form sends enquiries through Web3Forms using the public form i
 ## Deployment
 
 Vercel project: `hkcompassio`. Pushes to `main` trigger production deployments. `vercel.json` selects the `dist` directory. Production domain: https://hkcompass.org/.
+
+## SEO
+
+Localized search/social metadata is maintained in `source/seo.json`. The language build generates static Organization, WebSite, WebPage and Service JSON-LD, self-canonicals, reciprocal hreflang tags, `dist/robots.txt` and `dist/sitemap.xml`. `scripts/seo.py` is the shared generator. Only canonical URLs appear in the sitemap, with no fabricated last-modified dates. `/index.html` permanently redirects to `/` via Vercel.
+
+After deployment, submit `https://hkcompass.org/sitemap.xml` to a verified Google Search Console property. Search Console verification and indexing are separate from this deployment. Logo optimization and real case-study/service pages are future improvements; no search rankings or Core Web Vitals scores are claimed.
